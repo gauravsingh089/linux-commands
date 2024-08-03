@@ -1,0 +1,39 @@
+# Different type of shell
+https://www.digitalocean.com/community/tutorials/different-types-of-shells-in-linux
+
+
+
+# Check which shell is active
+echo $0
+echo $SHELL
+ps -p $$
+
+# Change shell
+exec bash
+exec zsh
+
+# redirection
+>
+
+# append
+>>
+
+# commands
+ls -l
+# show hidden files
+ls -a
+cat
+cp
+rm
+rm -r
+rm -rf
+mv
+mkdir
+cd 
+# relative vs absolute path
+pwd
+echo -
+variable_name=test
+echo $variable_name
+# passing command to variable
+current_date=$(date)
